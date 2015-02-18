@@ -1,11 +1,10 @@
-@RestResource(urlMapping='/HelloRest/*')
-                
+@RestResource(urlMapping='/HelloRest/*')      
 global with sharing class HelloRest {
     
     @HttpGet
-    global static List<World__c> getWorlds() {
-    	List<World__c> worlds = [SELECT Name from World__c];
-        return worlds;
+    global static String getWorlds() {
+    	String hello = HelloWorld.getHello();
+    	return hello;
     }
     
     @HttpPost

@@ -3,12 +3,19 @@
     <types>
         <members>HelloRest</members>
         <members>HelloWorld</members>
+        <members>Shoes</members>
+        <members>ShoesDBController</members>
+        <members>ShoesEndpoints</members>
         <members>apexWorkbook</members>
         <name>ApexClass</name>
     </types>
     <types>
         <members>HelloWorld</members>
         <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomObject</name>
     </types>
     <types>
         <members>*</members>

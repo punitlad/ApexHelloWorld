@@ -4,4 +4,5 @@
     <description>Simple Hello World Application</description>
     <label>HelloWorld</label>
     <tab>World__c</tab>
+    <tab>Shoes__c</tab>
 </CustomApplication>
